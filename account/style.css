@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #eff0f5;
+    font-style: Tahoma;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    height: 80px;
+    font: sans-serif;
+    flex: content;
+  }
+
+nav img{
+    width: 150px;
+    margin-top: 1ch;
+    left: 0%;
+    float: left;
+}
+
+.nav-bar ul {
+    float: right;
+    margin-top: 2%;
+}
+
+.nav-bar ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+.menu1{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.menu1 ul{
+    margin-right: 0%;
+}
+
+
+.menu1 ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.account {
+    background-color: #ffffff;
+    padding: 1px;
+    flex: content;
+    margin-bottom: 10%;
+}
+
+.account ul{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.account ul li{
+    text-align: left;
+    display: inline;
+}
+
+.edit{
+    text-align: right;
+    margin-right: 10px;
+}
+
+
+.social-mideas {
+    background-color: #ffffff;
+    height: 115px;
+    margin-top: 14%;
+}
+
+.social-mideas ul{
+    margin-left: 22%;
+}
+
+.social-mideas ul li{
+    display: inline;
+    float: left;
+    margin-top: 4%;
+}
+
+.coppyright{
+    float: right;
+    margin-top: 3%;
+    margin-right: 12%;
+}
+
+
+@media (min-width: 657px){
+    #menu-bar 
+    {width: 100%;
+    padding: 0px;
+    position: relative;
+}
+    
+}
